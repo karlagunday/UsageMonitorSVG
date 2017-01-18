@@ -5,3 +5,5 @@ Basic Usage Graph Monitor using SVG
 Karl Agunday
 
 #License
+
+    It's free!
