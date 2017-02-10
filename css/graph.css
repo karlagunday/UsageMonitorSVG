@@ -1,0 +1,63 @@
+svg.graph {
+	height: 400px;
+	
+	width: 630px;
+	font-family: Segoe UI;
+	float:left;
+}
+svg.graph .graph-axis-label{
+	font-size:10px;
+	fill:black;
+	text-anchor:middle;
+}
+svg.graph .grid {
+	stroke: black;
+	stroke-dasharray: 1 2;
+	stroke-width: 1;
+	opacity: 0.4;
+	fill:#fff;
+}
+svg.graph .points {
+	fill:red;
+}
+svg.graph .lines {
+	fill:none;
+	stroke:red;
+	stroke-width:.8;
+}
+svg.graph .graph-label{
+	color:black;
+	font-size:8px;
+	font-weight:bold;
+	kerning:1;
+	text-anchor:end;
+}
+svg.graph .grid.overlay {
+  stroke-opacity: 0.8;
+}
+#data-graph{
+	float:left;
+}
+#data-table{
+	padding-top:15px;
+}
+table.reading{
+	font-family: Segoe UI;
+	font-size:12px;
+	border:1px solid #848383;
+	border-collapse: collapse;
+	background-color:#fff;
+}
+table.reading tr,td{
+	border:1px solid #848383;
+	padding:5px;
+}
+table.reading tr td{
+	min-width:60px;
+}
+table.reading tr:first-child{
+	background-color:#006b3c;
+	color:#fff;
+	text-align:center;
+	font-weight:bold;
+}
