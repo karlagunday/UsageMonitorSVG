@@ -1,9 +1,13 @@
+body{
+	font-size:12px;
+	font-family: Segoe UI;
+}
 svg.graph {
-	height: 400px;
-	
-	width: 630px;
 	font-family: Segoe UI;
 	float:left;
+	min-width:1280px;
+    min-height:350px;
+	display: inline-block;
 }
 svg.graph .graph-axis-label{
 	font-size:10px;
